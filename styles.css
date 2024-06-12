@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+code {
+  font-family: cursive;
+}
+
+.App {
+  text-align: left; /* Align content to the left */
+}
+
+main {
+  padding: 20px;
+  text-align: center; /* Center content within main */
+}
+
+.AppBar {
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  background-color: pink; /* Change background color of the header */
+}
+
+.header {
+  color: #ffffff; /* Change text color of the header */
+  margin-left: 20px; /* Add margin to the left of the header */
+}
+
+.toolbar-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add margin to the right of the toolbar buttons */
+}
+
+.toolbar-button {
+  color: #ffffff; /* Change text color of the toolbar buttons */
+}
+
+.card {
+  padding: 16px;
+  text-align: left; /* Align card content to the left */
+  border-radius: 15px;
+  background: #e0e0e0;
+  color: #333;
+  border: 2px solid navy;
+}
+
+.common-section {
+  color: navy;
+  font-size: 1.2rem;
+}
+
+.timeline-table {
+  border-collapse: collapse;
+  border: 2px solid navy;
+}
+
+.timeline-header-cell {
+  color: navy;
+  font-weight: bold;
+  border-right: 2px solid navy;
+  padding: 8px;
+}
+
+.timeline-task-cell {
+  color: green;
+  font-weight: bold;
+  border-right: 2px solid navy;
+  padding: 8px;
+}
+
+.timeline-skills-cell {
+  color: orange;
+  font-weight: bold;
+  padding: 8px;
+}
